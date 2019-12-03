@@ -18,7 +18,7 @@ if __name__ == '__main__':
     print('Hohoho! Day 1!')
     modules = readFile()
     fuelNeeded = getModuleFuel(modules)
-    print('Total amout of fuel needed: ' + str(fuelNeeded))
+    print('Total amount of fuel needed: ' + str(fuelNeeded))
         
         
 
