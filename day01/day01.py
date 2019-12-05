@@ -13,7 +13,6 @@ def getModuleFuel(modules):
     for mass in modules:
         tempModuleMass = int(round(mass / 3,0)) - 2
         moduleMasses += tempModuleMass 
-        print(tempModuleMass)
         fuelFuelMass += getFuelFuel(tempModuleMass)
     return moduleMasses, fuelFuelMass
 
